@@ -1,3 +1,29 @@
-{
-  "plugins": ["syntax-dynamic-import"]
-}
+
+fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
+To flash the TWRP:
+Code:
+fastboot flash recovery twrp-3.3.1-xx-xxxxxx-mauronofrio.img
+Then reboot in TWRP manually.
+
+
+Source code:
+https://github.com/omnirom/android_bootable_recovery
+https://github.com/mauronofrio/andro...xiaomi_cepheus
+https://github.com/LasagnaTeam/TWRP_Kernel_Cepheus
+
+My Telegram TWRP Support Group:
+https://t.me/twrp_Mauronofrio
+
+Donations:
+
+Donate link
+
+Credits:
+@notsyncing
+@PeterCxy for the commits about wrappedkey
+@siankatabg for the latest commit about vendor.gatekeeper.disable_spu
+@Cozzmy13
+@ingbrzy for the help with Android Q decryption problems
+Thanks to all testers on the Telegram Group
+
+Created 2019-02-28
